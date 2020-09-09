@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url("./christmas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Josefin Sans", sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer-section {
+	padding: 0px 40px;
+	text-align: center;
+	line-height: 0.8;
+}
+
+.timer-section h2 {
+	font-size: 75px;
+	font-weight: bold;
+}
+
+.timer-section span {
+	font-size: 24px;
+}
